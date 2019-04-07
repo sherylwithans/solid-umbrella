@@ -79,6 +79,10 @@ def add_topic_info(a_dict):
             content = a_dict[key][2]
             topic = get_topic(content)[0][0]
             result[key].append(topic)
+        else:
+            content = a_dict[key][2]
+            topic = get_topic(content)[0][0]
+            result[key][3] = topic
     return result
 
 def document_from_topic(select_topic,a_dict):
@@ -95,6 +99,9 @@ def add_word_info(a_dict):
         if len(a_dict[key]) <= 4:
             words = process_article(a_dict[key][2])
             result[key].append(words)
+        else:
+            words = process_article(a_dict[key][2])
+            result[key][4] = words
     return result
 
 def document_from_word(word_in,a_dict):
