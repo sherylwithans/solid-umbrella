@@ -1,2 +1,5 @@
 # solid-umbrella
-Hi, welcome
+Installations:
+pip install selenium
+
+Add chromedriver.exe location to path
