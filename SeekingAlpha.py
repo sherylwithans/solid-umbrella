@@ -32,7 +32,7 @@ def get_sa_html(ticker):
 # In[25]:
 
 
-def all_news_info(ticker,days=3,date=datetime.datetime.now()):
+def get_seekingalpha(ticker,days=3,date=datetime.datetime.now()):
     ticker = ticker.upper()
     save_dir = "news/"+ticker+"/SeekingAlpha"
     make_dir(save_dir)
@@ -130,7 +130,7 @@ data = data.dropna()
 # In[ ]:
 
 
-# all_news_info('fb',3,datetime.datetime.now())
+# get_seekingalpha('fb',3,datetime.datetime.now())
 
 
 # In[6]:
