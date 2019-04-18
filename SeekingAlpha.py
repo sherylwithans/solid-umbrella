@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[92]:
+# In[1]:
 
 
 from file_operations import *
@@ -29,10 +29,10 @@ def get_sa_html(ticker):
     return html
 
 
-# In[93]:
+# In[25]:
 
 
-def all_news_info(ticker,days=3,date=datetime.datetime.now()):
+def get_seekingalpha(ticker,days=3,date=datetime.datetime.now()):
     ticker = ticker.upper()
     save_dir = "news/"+ticker+"/SeekingAlpha"
     make_dir(save_dir)
@@ -50,46 +50,64 @@ def all_news_info(ticker,days=3,date=datetime.datetime.now()):
                         if i.find('div',class_='content').find('div',class_='symbol_article').find('a'):
                             url = i.find('div',class_='content').find('div',class_='symbol_article').find('a').get('href')
                             title = i.find('div',class_='content').find('div',class_='symbol_article').find('a').get_text()
-                            time,link,content = get_news_info(url)
-                            if time:
-                                if (time >= time_range[-1]) & (time <= time_range[0]):
-                                    content = content.strip()
-                                    write_f(str(time),save_dir,content,f"{time},{title},{link[1]}")
-                                else:
-                                    return None
+                            #print(url)
+                            if url:
+                                if url.split('/')[1] != 'news':
+                                    continue
+                                time,link,content = get_news_info(url)
+                                #print(time)
+                                if time:
+                                    if time >= time_range[-1]:
+                                      #  print(time)
+                                        content = content.strip()
+                                        write_f(str(time),save_dir,content,f"{time},{title},{link}")
+                                    else:
+                                        return None
     return None
 
 
-# In[94]:
+# In[21]:
 
 
 def get_news_info(url):
     import requests
     import datetime
-    from selenium import webdriver
-    import time
+#     from selenium import webdriver
+#     import time
     from bs4 import BeautifulSoup
-    options = webdriver.ChromeOptions()
-    options.add_argument('headless')
-    driver = webdriver.Chrome(options=options) 
+#     options = webdriver.ChromeOptions()
+#     options.add_argument('headless')
+#     driver = webdriver.Chrome(options=options) 
     pre_url = 'https://seekingalpha.com'
     link = pre_url+url
-    driver.get(link)
-    time.sleep(5)
-    response=driver.page_source
-    response2 = BeautifulSoup(response,'lxml')
+#     driver.get(link)
+#    # time.sleep(2)
+    response=requests.get(link)
+    response2 = BeautifulSoup(response.content,'lxml')
     if response2.find('time'):
-        time = response2.find('time').get('datetime')[:19]
-        time = datetime.datetime.strptime(time,'%Y-%m-%d %H:%M:%S')
+        time_ = response2.find('time').get('datetime')[:19]
+        time_ = datetime.datetime.strptime(time_,'%Y-%m-%d %H:%M:%S')
+    elif response2.find('div',class_='filing-info'):
+        t = response2.find('div',class_='filing-info').find('span').get_text()
+        def parse_t(t):
+            t = t[:22]
+            if t[5] == ' ':
+                t = t[:5]+'0'+t[6:]
+            if t[14] == ' ':
+                t = t[:14]+'0'+t[15:]
+            return t
+        t = parse_t(t)
+        time_ = datetime.datetime.strptime(t,'%b. %d, %Y %I:%M %p')
+    if response2.find('div',{'id':'bullets_ul'}):
         c = response2.find('div',{'id':'bullets_ul'}).find_all('p')
         content = ''
         for i in c:
             content += i.get_text()
-        return time,link,content
+        return time_,link,content
     return None,None,None
 
 
-# In[95]:
+# In[4]:
 
 
 def recent_n_days(date,n):
@@ -101,8 +119,72 @@ def recent_n_days(date,n):
     return date_list
 
 
-# In[97]:
+# In[5]:
 
 
-# all_news_info('fb',days=5,date=datetime.datetime.now())
+import pandas as pd
+data = pd.read_csv("Common Stock Sample.csv")
+data = data.dropna()
+
+
+# In[ ]:
+
+
+# get_seekingalpha('fb',3,datetime.datetime.now())
+
+
+# In[6]:
+
+
+# new_data = data.iloc[:,:2]
+
+
+# In[7]:
+
+
+#tickers = list(new_data['Ticker Symbol'])
+#names = list(new_data['Asset Short Name'])
+
+
+# In[8]:
+
+
+# def get_names(ticker):
+#     pre = 'https://seekingalpha.com/symbol/'
+#     url = pre+ticker.upper()
+#     from bs4 import BeautifulSoup
+#     import requests
+   
+#     response = requests.get(url)
+#     results = BeautifulSoup(response.content,'lxml')
+#     name = results.find("div",class_='ticker-title')
+#     if name:
+#         name = name.get_text().split("|")[0]
+#     else:
+#         name = get_names2(ticker)
+#     return name
+
+# def get_names2(ticker):
+#     pre = 'https://seekingalpha.com/symbol/'
+#     url = pre+ticker.upper()
+#     from bs4 import BeautifulSoup
+#     import requests
+    
+#     from selenium import webdriver
+#     import time
+#     options = webdriver.ChromeOptions()
+#     options.add_argument('headless')
+#     driver = webdriver.Chrome(options=options) 
+#     driver.get(url)
+#     time.sleep(0.01)
+#     response=driver.page_source
+    
+#    # response = requests.get(url)
+#     results = BeautifulSoup(response,'lxml')
+#     name = results.find("div",class_='ticker-title')
+#     if name:
+#         name = name.get_text().split("|")[0]
+#     else:
+#         name = "* "
+#     return name
 
