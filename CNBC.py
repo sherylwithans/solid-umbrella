@@ -1,35 +1,60 @@
 
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
+#!pip install webdriver-manager
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from bs4 import BeautifulSoup
+import requests
+import re
+import datetime
+from file_operations import *
+
+
+# In[16]:
+
+
+from file_operations import *
 def cnbc_news(ticker):
-    news_output_dict = dict()
+    #news_output_dict = dict()
     url = "https://www.cnbc.com/quotes/?symbol="+ticker +"&tab=news"
+    save_dir = "news/"+ticker+"/CNBC"
+    make_dir(save_dir)
+    
+#     try:
+#         response = requests.get(url)   
+#         if not response.status_code == 200:
+#             print("HTTP error",response.status_code)
+#         else:
+#             try:
+#                 soup = BeautifulSoup(response.content,'lxml')
+#             except:
+#                 print('something went wrong')
+#     except:
+#         print("Something went wrong with request.get")
+    
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    browser = webdriver.Chrome(ChromeDriverManager().install(),options=options)
+    # browser = webdriver.PhantomJS() #replace with .Firefox(), or with the browser of your choice
+    browser.get(url) #navigate to the page
+    innerHTML = browser.execute_script("return document.body.innerHTML") #returns the inner HTML as a string
+    results_page = BeautifulSoup(innerHTML,'html.parser')
 
-    import requests
-    from bs4 import BeautifulSoup
-    import datetime
-    import re
-    
-    try:
-        response = requests.get(url)   
-        if not response.status_code == 200:
-            print("HTTP error",response.status_code)
-        else:
-            try:
-                soup = BeautifulSoup(response.content,'lxml')
-            except:
-                print('something went wrong')
-    except:
-        print("Something went wrong with request.get")
-    
-    news_headlines = soup.find_all('div',class_="assets")
+    news_headlines = results_page.find_all('div',class_="assets")
     for item in news_headlines:
-        link = item.find('a').get('href')
+        try:
+            link = item.find('a').get('href')
+        except:
+            link = '{{asset.href}}'
         if link != '{{asset.href}}':
-            time,headline,content = get_each_news(link)
+            try:
+                time,headline,content = get_each_news(link)
+            except:
+                pass
             if time != '--':
                 if 'Ago' in time:
                     timestring = time
@@ -53,12 +78,11 @@ def cnbc_news(ticker):
             else:
                 datetime_ = time
            
-            news_output_dict[(datetime_,ticker)] = [headline,link,content]
-    
-    return news_output_dict
+            #news_output_dict[(datetime_,ticker)] = [headline,link,content]
+            write_f(str(datetime_),save_dir,content,f"{datetime_},{headline},{link}")
 
 
-# In[ ]:
+# In[3]:
 
 
 def get_each_news(headline_link):
@@ -84,4 +108,10 @@ def get_each_news(headline_link):
     except:
         time = '--'
     return time,headline,content
+
+
+# In[17]:
+
+
+cnbc_news('AAPL')
 
