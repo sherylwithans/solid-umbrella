@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 #!pip install webdriver-manager
@@ -14,11 +14,11 @@ import datetime
 from file_operations import *
 
 
-# In[16]:
+# In[30]:
 
 
 from file_operations import *
-def cnbc_news(ticker):
+def get_cnbc(ticker,num_days):
     #news_output_dict = dict()
     url = "https://www.cnbc.com/quotes/?symbol="+ticker +"&tab=news"
     save_dir = "news/"+ticker+"/CNBC"
@@ -77,12 +77,16 @@ def cnbc_news(ticker):
                     datetime_ = datetime.datetime.combine(d,t)
             else:
                 datetime_ = time
-           
-            #news_output_dict[(datetime_,ticker)] = [headline,link,content]
-            write_f(str(datetime_),save_dir,content,f"{datetime_},{headline},{link}")
+            print(type(datetime_),link,datetime_)
+            try:
+                if datetime_ >= (datetime.datetime.now()- datetime.timedelta(days=num_days)):
+                #news_output_dict[(datetime_,ticker)] = [headline,link,content]
+                    write_f(str(datetime_),save_dir,content,f"{datetime_},{headline},{link}")
+            except:
+                pass
 
 
-# In[3]:
+# In[23]:
 
 
 def get_each_news(headline_link):
@@ -108,10 +112,4 @@ def get_each_news(headline_link):
     except:
         time = '--'
     return time,headline,content
-
-
-# In[17]:
-
-
-cnbc_news('AAPL')
 
