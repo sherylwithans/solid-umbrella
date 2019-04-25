@@ -1,0 +1,51 @@
+One of Amazon's most promising new business areas, advertising sales, appears to be slowing down.
+
+The growth of Amazon's "Other" segment, which consists primarily of advertising sales, slowed dramatically to 36% in the first quarter from the previous year, at $2.72 billion. That's a big slowdown from 97% year-over-year growth last quarter, and over 100% growth for three consecutive quarters before that.
+However, the rate of growth was artificially boosted in 2018 by an accounting change in January 2018. On an adjusted basis, the year-over-year growth rate in the "Other" segment in Q4 2018 was only 38%, and ranged between 51% and 73% in the previous quarters last year. So, while advertising growth has slowed, the drop-off was not as dramatic as it seemed to be from the company's earnings statement.
+
+Amazon's fast-growing advertising business has been a bright spot for the company amid slowing growth in its core e-commerce business.
+According to figures from eMarketer, Amazon has become the number three digital advertiser in the U.S, behind only Alphabet's Google and Facebook. CNBC previously reported that some consumer packaged goods advertisers were moving as much as half of their search ad budget from Google to Amazon, where an advertisement can be converted into an immediate sale on the site.
+As of February, Amazon was expected to take over 8.8% of net digital ad revenue share in the U.S. It still trails behind Google, which is expected to have 37.2% share this year, and Facebook, with an expected 22.1%, according to eMarketer.
+Amazon's steady expansion beyond e-commerce has drawn fire from some politicians.
+Most prominently, Democratic candidate Sen. Elizabeth Warren in March unveiled a plan to break up Amazon and other tech giants, saying they have "too much power over our economy, our society, and our democracy." In particular, Warren has said Amazon plays a dual role of running a marketplace and selling its own products in it, creating a "conflict of interest." Amazon removed some promotional spots for its own products earlier this year, possibly in response.
+The company revealed the numbers as it reported better-than-expected earnings Thursday. The stock barely moved after hours, as revenue was mostly in line with expectations and operating profit guidance for the second quarter was light.
+Update: This story and its headline have been changed to reflect the fact that Amazon's advertising growth rates were partly affected by an accounting change in Q1 2018. On an adjusted basis, growth rates did not drop as dramatically in Q1 2019 as originally stated.
+
+
+
+
+
+
+
+show chapters
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+				    	                 
+            Amazon realizing the challenges of physical stores, says former Toys R Us CEO020202
+			                        37 Mins Ago |  04:19 
+
+
+
+
+
+
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

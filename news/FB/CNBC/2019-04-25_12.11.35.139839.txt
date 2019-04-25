@@ -1,0 +1,22 @@
+Scott Mlyn | CNBC
+Jim Cramer
+
+
+Facebook's stock will soon exceed the all-time high that it notched last summer, in the early months after the social network's massive Cambridge Analytica data privacy scandal, CNBC's Jim Cramer said Thursday.
+
+It's going to take out $218 per share, Cramer said on "Squawk on the Street." "Then it's like 26 times earnings and it's growing at 20%." Cramer's charitable trust owns Facebook shares, but its position was trimmed some late last year.
+The stock closed March 16, 2018, at about $185 per share, the session before news broke of Cambridge Analytica's data misuse. Ten days after that, Facebook hit a then-intraday low of around $149, which represented a 19% decline. Under scrutiny over data privacy by Washington and Wall Street, Facebook eventually clawed its way to an all-time high on July 25, 2018, trading at more than $218 per share. But since then, Facebook had lost 16% as of Wednesday's close.
+
+Shares of Facebook were about 7% higher Thursday, after the company reported after the bell the prior day first-quarter financial results that exceeded Wall Street expectations. The company beat on revenue and matched estimates on daily active user growth. At about $195 per share Thursday, the stock was about 12% away from its record high.
+
+Cramer had been critical of Facebook for months after Cambridge Analytica scandal. The "Mad Money" host's criticisms were later targeted at Chief Operating Officer Sheryl Sandberg, who was reportedly blamed by Facebook co-founder, Chairman and CEO Mark Zuckerberg for the company's problems.
+Cramer said Thursday that Facebook is now a "very inexpensive growth stock."
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

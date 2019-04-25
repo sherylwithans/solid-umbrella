@@ -1,0 +1,33 @@
+(For a live blog on the U.S. stock market, click or type LIVE/ in a news window)
+* Caterpillar, AT&T fall after Q1 results
+* Anadarko jumps as Occidental outbids Chevron
+
+* Energy index the biggest S&P drag
+* Indexes down: Dow 0.22%, S&P 500 0.22%, Nasdaq 0.23% (Updates to close, adds commentary)
+NEW YORK, April 24 (Reuters) - The S&P 500 slipped on Wednesday after ending the previous session with a record and the Nasdaq failed to hold all-time highs reached earlier in the day while investors waited for more earnings reports.
+Energy stocks were the biggest drag on the S&P as oil prices fell. While the tech-heavy Nasdaq had help from eBay Inc's upbeat earnings and a chipmaker rally, investors were digesting a mixed bag of reports. The S&P 500, closing roughly 0.5% below its intraday record high hit in late September, has rallied about 17% year-to-date. It has been supported by a dovish Federal Reserve, hopes of a U.S.-China trade deal and largely upbeat earnings. But with big companies such as Microsoft Corp, Facebook Inc, reporting after the close on Wednesday and Amazon.com and Intel Corp reports on tap for Thursday afternoon many investors kept to the sidelines.
+"While the expectations are for good reports from all four of them recent strength and relative valuations are keeping people on the edge of their seat," Michael James, managing director of equity trading at Wedbush Securities in Los Angeles.
+"There was no needle moving news today for people to be making bigger bets on anything after the big move we had yesterday."
+The Dow Jones Industrial Average fell 59.34 points, or 0.22%, to 26,597.05, the S&P 500 lost 6.43 points, or 0.22%, to 2,927.25 and the Nasdaq Composite dropped 18.81 points, or 0.23%, to 8,102.02.
+Profits of S&P 500 companies are expected to decline 1.1% for the first quarter, still a large improvement from the 2.3% drop estimated at the start of April. And nearly 78% of the 129 companies that have reported so far have surpassed earnings estimates, according to Refinitiv data.
+"The overall picture confirms the economy is on a steady footing. It's skewing to the positive side," said Laura Kane, head of Americas thematic investing at UBS Global Wealth Management.
+"The market is taking a pause. We've a lot of earnings coming this week and next. There's nothing today that would change the overall economic outlook."
+Only three of the S&P 500's 11 major industry sectors ended the day in positive territory and Real Estate led the gainers with a 0.8% rise. Energy was the biggest decliner with a 1.6% drop.
+The technology sector lost its gains late in the session to close down 0.01 percent and the Philadelphia Semiconductor Index closed up 0.95% after hitting an all-time high during the session. Texas Instruments Inc rose 1.8% after its quarterly report.
+Caterpillar Inc fell 3% as rising costs hit margins in its construction equipment business and the company reported tepid sales in the Asia Pacific region.
+AT&T Inc was the biggest drag on the S&P 500, declining 4% after the second-largest U.S. wireless carrier reported quarterly revenue below Wall Street estimates.
+EBay jumped 5.5% after the company raised its full-year sales and profit forecasts.
+Anadarko Petroleum Corp jumped 11.6%, providing the biggest boost to the S&P 500, after Occidental Petroleum Corp sought to scuttle Chevron Corp's takeover of the company with a $57 billion bid.
+Boeing Co closed up 0.38% even after scrapping its 2019 outlook and reporting quarterly revenue below estimates due to grounding of its 737 MAX jets. Its shares have lost about 11% since the deadly Ethiopian crash in early March.
+Advancing issues outnumbered declining ones on the NYSE by a 1.01-to-1 ratio; on Nasdaq, a 1.09-to-1 ratio favored decliners.
+The S&P 500 posted 49 new 52-week highs and two new lows; the Nasdaq Composite recorded 96 new highs and 37 new lows.
+On U.S. exchanges 6.57 billion shares changed hands compared with the 6.65 billion average for the last 20 sessions. (Additional reporting by Sruthi Shankar and Amy Caren Daniel in Bengaluru; Editing by Chizu Nomiyama and Lisa Shumaker)
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

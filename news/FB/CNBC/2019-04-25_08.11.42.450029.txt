@@ -1,0 +1,64 @@
+Getty Images
+Facebook CEO Mark Zuckerberg speaks during the F8 Facebook Developers conference on May 1, 2018 in San Jose, California.
+
+
+When Europe implemented strict new privacy laws last spring, Facebook's daily active user numbers in the region started to drop.
+
+Fast forward one year and a record number of Europeans are using the platform every day.
+Facebook reported 286 million daily active users in Europe in the first quarter of this year, 4 million more than in the prior quarter. The number marks the second consecutive quarter of growth in the continent, after declines in the first half of 2018.
+
+"Despite the negative media coverage and the new privacy regulations brought into Europe, Facebook continues to show stable user trends with growth in Europe this quarter on a sequential basis," said Christopher Rossbach, CIO of private investment firm J. Stern & Co., in an email Thursday.
+
+The social media giant was quick to blame last year's slowdown on Europe's General Data Protection Regulation, or GDPR, a massive privacy law that went into effect in May. The law aims to give consumers more control over their personal data, for example by requiring users to reaffirm a company's privacy policy before using its platform. Facebook warned this would impact user growth.
+"[In] Europe, we saw the declines that we anticipated from GDPR," Facebook CFO David Wehner said on the company's July 2018 earnings call. "And I would say there, really, those impacts were purely due to the GDPR impact, not other engagement trends."
+Now, there are signs those concerns were overblown. In a note published Thursday morning, analysts at Baird said Facebook's 4 million new daily active users in Europe are "a potential sign that the engagement impact of GDPR was transitory."
+
+
+
+
+
+
+
+Europe's rebound could bolster the case for more regulation, not least from Facebook itself. On Wednesday's earnings call, Facebook CEO Mark Zuckerberg reiterated his call for more privacy regulation like GDPR. Users, meanwhile, have consistently forgiven the company for seemingly endless privacy and security lapses over the past year.
+"Everyone talks about this distrust that they have of Facebook now but at the end of the day they're simply hooked on this platform," said Gene Munster, managing partner at Loup Ventures, on CNBC's Fast Money Wednesday.
+Where GDPR does appear to have a bigger impact is on Facebook's advertising targeting strategy.
+"The number of people who have opted out on using context from the apps and websites that they visit for ad targeting has continued to increase since the adoption of GDPR, so we've seen that come up both in Europe and around the world," Wehner said on Wednesday's earnings call.
+
+
+
+
+
+
+
+show chapters
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+				    	                 
+            Loup Ventures Gene Munster breaks down Facebook earnings020202
+			                         5:33  PM ET Wed, 24 April 2019 |  02:42 
+
+
+
+
+
+
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });
