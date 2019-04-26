@@ -1,0 +1,66 @@
+Jason Alden | Bloomberg | Getty Images
+Microsoft CEO Satya Nadella reacts during a panel session on day three of the World Economic Forum in Davos, Switzerland, on Jan. 24, 2019.
+
+
+Microsoft shares jumped as much as 5.1% on Thursday, pushing the company past $1 trillion in market value on a better-than-expected earnings report.
+
+The stock needed to hit $130.51 to reach the trillion-dollar mark for the first time. It traded as high as $131.37, though it bounced around throughout the day before closing at $129.15 for a market cap of about $990 billion.
+After regular trading on Wednesday, Microsoft reported fiscal third-quarter earnings of $1.14 per share, excluding certain items, topping the $1.00 estimate of analysts surveyed by Refinitiv. Revenue climbed 14% to $30.6 billion, exceeding the average estimate of $29.84 billion.
+
+Microsoft and Facebook kicked off tech earnings season, with both companies surpassing expectations. Facebook shares rose more than 6% on Thursday. Amazon reports after the bell, followed by Alphabet and Apple early next week. Expectations are high for the tech sector, after the Nasdaq climbed to an intraday record Wednesday.
+Sales growth at Microsoft is being driven by the transition to the public cloud as more large businesses offload their servers and data storage to Azure infrastructure. Gross margin, or the percentage of revenue left after accounting for the costs of goods sold, was 66.7%, up from 65.4% a year earlier. Net income rose 19% to $8.8 billion.
+
+
+
+
+
+ 
+Source: CNBC
+
+
+Azure's revenue surged 73%. Microsoft's commercial cloud business, which includes Azure, grew 41% in the quarter to $9.6 billion. While Azure is still much smaller than rival Amazon Web Service, Stifel analysts say it's growing faster than AWS was at a similar size. And analysts at Mizuho Securities said Azure's growth was well above their forecast for 68% expansion.
+"We continue to be very bullish on Azure's positioning," the Mizuho analysts wrote in a note after the earnings report. The firm has a buy rating on the stock.
+Microsoft said on the earnings call that revenue in the fiscal fourth quarter will be $32.2 billion to $32.9 billion. Analysts expected $32.6 billion, according to Refinitiv.
+In addition to growth in cloud infrastructure, Microsoft is also benefiting from the move to cloud applications, pushing users of its traditional productivity products like Word and Excel to the cloud-based Office 365 suite. Commercial sales of Office 365 increased 30%. And LinkedIn, the professional networking site that Microsoft acquired for more than $26 billion in 2016, continues to grow much faster than the overall business. LinkedIn's revenue climbed 27% in the quarter.
+WATCH: Microsoft tops revenue estimates in third quarter
+
+
+
+
+
+
+
+show chapters
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+				    	                 
+            Microsoft tops revenue estimates in third quarter020202
+			                         4:39  PM ET Wed, 24 April 2019 |  00:42 
+
+
+
+
+
+
+Subscribe to CNBC on YouTube.
+
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });
