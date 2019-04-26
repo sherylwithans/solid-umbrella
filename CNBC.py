@@ -77,7 +77,7 @@ def get_cnbc(ticker,num_days):
                     datetime_ = datetime.datetime.combine(d,t)
             else:
                 datetime_ = time
-            print(type(datetime_),link,datetime_)
+            #print(type(datetime_),link,datetime_)
             try:
                 if datetime_ >= (datetime.datetime.now()- datetime.timedelta(days=num_days)):
                 #news_output_dict[(datetime_,ticker)] = [headline,link,content]

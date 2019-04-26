@@ -1,0 +1,28 @@
+privacy laws@ (Adds Canadian government reaction, paragraphs 13-15)
+OTTAWA, April 25 (Reuters) - Facebook Inc broke Canadian privacy laws when it collected the information of some 600,000 citizens, a top watchdog said on Thursday, pledging to seek a court order to force the social media giant to change its practices.
+Privacy Commissioner Daniel Therrien made his comments while releasing the results of an investigation, opened a year ago, into a data sharing scandal involving Facebook and the now-defunct British political consulting firm Cambridge Analytica.
+
+Though Facebook has acknowledged a "major breach of trust", the company disputed the results of the probe, Therrien said.
+"Facebook's refusal to act responsibly is deeply troubling given the vast amount of sensitive personal information users have entrusted to this company," said Therrien.
+He said the company refused to voluntarily submit to audits of its privacy policies and practices over the next five years.
+"The stark contradiction between Facebook's public promises to mend its ways on privacy and its refusal to address the serious problems we've identified or even acknowledge that it broke the law is extremely concerning," he added.
+Facebook did not respond to a request for comment.
+The Office of the Privacy Commissioner does not have power to levy financial penalties, but it can seek court orders to force an entity to follow its recommendations.
+It could take a year to obtain a court order, Therrien said.
+The probe revealed an "overall lack of responsibility" with personal information that means "there is a high risk that" their data "could be used in ways that they do not know or suspect, exposing them to potential harms."
+Apart from privacy violations, the investigation highlighted problems with regulating social media.
+Facebook's rejection of the recommendations revealed "critical weaknesses" in current legislation, Therrien added, urging lawmakers to give his office more sanctioning power.
+Canadian Democratic Institutions Minister Karina Gould said "Facebook must back up its commitment to protect Canadians' personal data with consistent and measurable actions".
+Ottawa, she said in a statement, had the power to fine companies up to C$100,000 ($74,000) for failing to meet recently updated standards on data protection.
+Earlier this month she said the government might have to regulate social media companies unless they do more to combat foreign meddling in this October's election.
+Facebook said on Wednesday it had set aside $3 billion to cover a settlement with U.S. regulators probing revelations that the company had inappropriately shared information belonging to 87 million users with Cambridge Analytica.
+($1=$1.35 Canadian) (Reporting by David Ljunggren and Steve Scherer Editing by Chizu Nomiyama, Susan Thomas, Jonathan Oatis and David Gregorio)
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

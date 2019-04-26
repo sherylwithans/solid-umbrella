@@ -1,0 +1,84 @@
+Getty Images
+Facebook co-founder and CEO Mark Zuckerberg smiles at the conclusion of his testimony before the House Energy and Commerce Committee in the Rayburn House Office Building on Capitol Hill April 11, 2018, in Washington, DC.
+
+
+Wall Street was enamored Thursday morning with Facebook's first-quarter earnings report, with a handful of brokerages lauding the company's cash flow, user growth and revenue.
+
+The social network's shares rose more than 8.5% in premarket trading.
+The solid financials came despite heavy investments in safety and security, making the results even more impressive, Morgan Stanley analyst Brian Nowak said. Though profit took a hit thanks to an anticipated fine of at least $3 billion from the Federal Trade Commission over privacy violations, the possible charge didn't appear to derail long-term theses.
+
+"What a start to 2019," Nowak wrote in a note to clients. The strong result "speaks to the strength of its engagement, ad offering and ability to drive earnings power ... even while aggressively investing to improve its platform."
+Digging into the numbers, Facebook sales, monthly active users and average revenue per user all topped estimates in the quarter. That was enough to draw an upgrade from UBS analyst Eric Sheridan, who changed his rating on Facebook shares to buy from neutral.
+"We continue to see FB as a core large cap Internet holding for strong revenue growth at reasonable valuation multiples against 2-3 year growth," he wrote. "Based on our analysis, medium-term growth opportunities (Instagram, Video & Messenger) are under-appreciated relative to peers."
+Facebook's profit, revenue and user numbers hit record highs during the quarter. Facebook shares closed at $182.58 on Wednesday.
+Here's a wrap of all the major analyst opinions.
+
+
+
+UBS (buy; $240 target)
+
+"While 2019 remains a year of transition, FB mgmt has now produced multiple quarters with ahead of consensus revenue/EPS performance (we believe driven by user/engagement/revenue growth on Instagram). Instagram is now one of the Internet's large scaled digital ad platforms that can sustain growth & operating leverage (even as the platform transitions to Stories/Shopping) for years to come. While concerns will persist about core Facebook maturation, regulatory headwinds and/or safeguarding the platform for a privacy first approach, we think the market now better understands many of those risks (as they dominate almost all of our investor conversations)."
+
+
+
+Citi (buy; $212 target)
+
+"FB reported strong 1Q19 results, with revenue slightly ahead of even the most bullish expectations and expense growth slowing more than most expected ... All in, we see a combination of solid topline growth and improving expense trends to result in a 20% 3-yr revenue CAGR, stabilizing margins in 2020, and >$8 in GAAP EPS in 2020. With the equity currently valued at 24x our 20E GAAP EPS and with strong/improving fundamentals, we maintain our Buy rating."
+
+
+
+Morgan Stanley (buy; $210 target)
+
+"What a start to 2019: FB's strong start to 2019 C across the board 1Q revenue, free cash flow, EPS and active user beats C speaks to the strength of its engagement, ad offering and ability to drive earnings power...even while aggressively investing to improve its platform safety/security, product offerings, and monetization. We were particularly impressed by the 32% free cash flow beat as strong top-line and more capex/opex discipline drove upside. Advertising upside was driven by broad strength across Instagram News Feed, Stories and core Facebook News Feed (where pricing continues to rise)."
+
+
+
+J.P. Morgan (overweight; $245 target)
+
+"We believe 1Q represents another qtr in which FB showed its ability to maintain strong engagement & also effectively manage revenue deceleration, which should give the Street increased confidence going forward. We continue to believe that FB can deliver 20's% revenue growth in 2020 w/moderating expense growth, driving strong re-acceleration in earnings growth next yearwe model ~17% growth ex-accrual."
+
+
+
+Goldman Sachs (buy; $228 target)
+
+"Buy-rated Facebook reported 1Q19 revenue above expectations. Total ad revenue of $14.91bn came in above the Street, with FactSet consensus of $14.78bn. While management accrued $3bn in the quarter for an FTC settlement, if we exclude this one-time item, GAAP operating margins would have been 42% (vs. 22% reported) which easily surpassed the Street forecast of 35.9%. GAAP EPS including the accrual was $0.85, however if we exclude this non-tax deductible accrual GAAP EPS would have been $1.89 which compares to consensus of $1.62. Below the line items were a $0.03 headwind to EPS in the quarter."
+
+
+
+Bank of America Merrill Lynch (buy; $187 target)
+
+"Results were quite strong, though call commentary that privacy would impact revenue growth in 2H'19 and that Facebook remains committed to investing in 2019 "and 2020" may take away some of the trading momentum on potential for positive estimate revisions. Still with Facebook again beating its 1Q revenue outlook and lowering its expense guide, Street may see commentary as conservative. With revenue growth rates exceeding expectations (only a modest 2 points of q/q deceleration from shift to stories) we reiterate our Buy and remain optimistic on stories, messaging and video monetization, while expense growth is likely near a y/y peak."
+
+
+
+Barclays (overweight; $240 target)
+
+"Facebook reported revenue ~1% and OI (ex-fine) 18% above consensus in 1Q. Shares remain under-owned among the long-only community based on our conversations, so we may start to see a "performance chasing" dynamic as shares continue to ascend. The tone of the call was upbeat and Zuckerberg did a very good job explaining his longer-term vision which should put to rest some of the confusion following the early March manifesto. Stepping back, at 20x 2020 EPS, given the light LO positioning, we still see FB as one of the more compelling ideas in mega cap internet."
+
+
+
+Deutsche Bank (buy; $220 target)
+
+"We feel better about Facebook's medium term top line trajectory given lower-than-feared deceleration in 1Q (2.2ppts), skepticism around management's guidance for greater 2H sequential growth deceleration, increased advertisers in Stories (3M vs 2M last quarter), and reduced customer concentration. Opex and capex growth already look to be moderating and the reduced guidance still looks conservative to us as it implies re-accelerating opex despite easier comps. We see some longer term risk around the shift to privacy / messaging (e.g. India WhatsApp cannabilizing core Facebook) though we still view this as largely an incremental use case not broadly cannibalistic."
+
+
+
+
+
+
+		    	                 
+            Disclaimer
+			                 
+
+
+
+
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

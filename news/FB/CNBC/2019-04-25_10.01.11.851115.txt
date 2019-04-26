@@ -1,0 +1,28 @@
+Dow@ (For a live blog on the U.S. stock market, click or type LIVE/ in a news window)
+* Microsoft gains as it predicts more cloud growth
+* Facebook surges in heavy trading after Q1 profit beat
+
+* 3M shares slump after 2019 forecast slash, job cuts
+* Futures: Dow off 0.24%, S&P up 0.13%, Nasdaq rises 0.39% (Changes comment, updates price)
+April 25 (Reuters) - The tech-heavy Nasdaq index was on course to open at a record high on Thursday after strong results from Facebook and Microsoft, while a slump in shares of industrial conglomerate 3M weighed on Dow futures.
+3M Co shares tumbled 8% in premarket trading after the company reported a lower-than-expected quarterly profit, cut its 2019 earnings forecast and said it would lay off 2,000 workers globally.
+Facebook Inc jumped 8.7% after the social media giant's quarterly profit blew past analysts' profit estimates.
+Microsoft Corp gained 5.2% after the company beat estimates for quarterly results and predicted continued growth for its cloud computing business.
+"Facebook and Microsoft are prominent names and you would think that they'd be able to put the market on their shoulders and pull it higher, but 3M is a little more indicative of the global economy because its products are sold ubiquitously," said Mark Luschini, chief investment strategist at Janney Montgomery Scott in Philadelphia.
+Investors are assessing earnings from some of the biggest U.S. companies this week to see if the strong run-up in stocks since the start of the year is justified as the main Wall Street indexes hover near all-time highs.
+The S&P 500 closed nearly 0.5% below its record high hit in late September on Wednesday. The index has rallied about 17% this year, supported by a dovish Federal Reserve, hopes of a U.S.-China trade deal and largely upbeat earnings.
+"We're deep enough in earnings season to know what the pattern is, and that is much better than expected, so they've done what they can do to hold the markets in," said Luschini.
+At 8:45 a.m. ET, Dow e-minis were down 65 points, or 0.24%. S&P 500 e-minis were up 3.75 points, or 0.13% and Nasdaq 100 e-minis were up 30.25 points, or 0.39%.
+Economic data was mixed on the day, with new orders for U.S.-made capital goods increasing by the most in eight months in March, but another report showed initial jobless claims increased by the most in 19 months last week.
+Among other movers, Lam Research gained 4.4% after the semiconductor equipment maker reported better-than-expected quarterly results.
+Amazon.com Inc, among the big names set to report after market close, was up 1.1%.
+(Reporting by Sruthi Shankar and Amy Caren Daniel in Bengaluru Editing by Saumyadeb Chakrabarty and Anil D'Silva)
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

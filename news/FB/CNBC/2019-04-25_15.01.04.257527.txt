@@ -1,0 +1,32 @@
+Microsoft@ (For a live blog on the U.S. stock market, click or type LIVE/ in a news window)
+* Microsoft gains as it predicts more cloud growth
+* Facebook surges in heavy trading after Q1 profit beat
+
+* 3M shares slump after 2019 forecast cut
+* Industrials slide most among major S&P sectors
+* Dow falls 0.48%, S&P up 0.04%, Nasdaq gains 0.25% (Updates to early afternoon)
+April 25 (Reuters) - The S&P 500 was flat on Thursday as gains in Facebook and Microsoft were overshadowed by 3M's bleak quarterly report, which sparked concerns about slowing global growth.
+Shares of the Post-it notes maker tumbled 12%, on track to post their biggest percentage decline in over three decades, after the company cut its 2019 earnings forecast and said it would lay off 2,000 workers.
+Industrial stocks fell 1.6%, also dragged down by United Parcel Service Inc, Raytheon Co and Fedex Corp, all down after disappointing results.
+On the other hand, Facebook Inc rose 6% and Microsoft Corp 3.5% after the technology heavyweights reported better-than-expected results.
+Gains in social media company lifted the communication services index 1.2%, the most among the major S&P sectors.
+"The information from 3M is an insight into industrial production, manufacturing and so on and that becomes a proxy for global growth than Facebook or even Microsoft, and that is stirring the markets a little bit," said Josh Wein, portfolio manager for Hennessy Funds in Chapel Hill, North Carolina.
+"People are looking for a crack, they see 3M as a crack ... so the markets may sell off temporarily, but ultimately the sentiment remains positive."
+The S&P 500 has rallied 17% this year, rebounding from a late-2018 slump, on hopes of a U.S.-China trade deal, the Federal Reserve's move to pause interest rate hikes and a largely positive earnings season.
+The index is 0.4% below its record high hit in late September, struggling to break above the level as investors await more positive catalysts.
+Amazon.com Inc, set to report after market close, was up 0.6%.
+At 12:44 p.m. ET the Dow Jones Industrial Average as down 126.70 points, or 0.48%, at 26,470.35, the S&P 500 was up 1.27 points, or 0.04%, at 2,928.52 and the Nasdaq Composite was up 19.86 points, or 0.25%, at 8,121.87.
+Of the 178 S&P 500 companies that have reported so far, about 78% have topped profit estimates, according to Refinitiv data. The forecast for earnings have hugely improved from a 2.3% decline at the start of the season to a flat reading as of Thursday.
+The top gainer on the S&P 500 was Lam Research, which jumped 6% as the semiconductor equipment maker reported better-than-expected quarterly results.
+Xilinx Inc tumbled 16.4% after the chipmaker's quarterly gross margins fell short of estimates. The Philadelphia chip index dropped 1.6%.
+Declining issues outnumbered advancers for a 1.79-to-1 ratio on the NYSE and a 1.49-to-1 ratio on the Nasdaq.
+The S&P index recorded 18 new 52-week highs and four new lows, while the Nasdaq recorded 44 new highs and 42 new lows. (Reporting by Sruthi Shankar and Amy Caren Daniel in Bengaluru Editing by Saumyadeb Chakrabarty and Anil D'Silva)
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

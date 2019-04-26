@@ -1,0 +1,38 @@
+* Asian stock markets: https://tmsnrt.rs/2zpUAr4
+* Dollar index near 2-year peak, pound at 2-mth lows
+* European shares seen slightly higher
+
+* BOJ says rates will stay at extreme lows until early 2020
+* Markets eye earnings, U.S. Q1 GDP on Friday
+TOKYO, April 25 (Reuters) - Asian shares slipped to three-week lows on Thursday as a surprise deterioration in German and South Korean economic data rekindled fears of slowing global growth, while oil prices pulled back slightly after a sharp run-up earlier in the week.
+European stocks are expected to fare slightly better, with futures up 0.15-0.25 percent.
+MSCI's broadest index of Asia-Pacific shares outside Japan eased 0.5 percent, while Japan's Nikkei average closed up 0.5 percent.
+The Japanese yen traded slightly higher than then previous session's four-month lows and showed a muted response to a Bank of Japan policy pledge to keep interest rates very low at least until early 2020, even as it retained main policy targets.
+The BOJ also said it would consider introducing a facility to lend the exchange traded funds that it buys and holds as part of its monetary operations.
+The Nikkei didn't react to the move and traders couldn't agree if the measure was aimed at improving stock market liquidity or just cash conditions.
+"This is one very technical move, I would assume, aimed at lack of liquidity in the stock market. I wouldn't consider it as a monetary policy," said Norihiro Fujito, chief investment strategist at Mitsubishi UFJ Morgan Stanley Securities.
+Japan's central bank also lowered growth and price projections for 2020.
+Earlier in the day, data showing the South Korean economy unexpectedly contracted in the first quarter of the year also added to worries about the dual-speed nature of the global economy.
+Chotaro Morita, chief rates strategist at SMBC Nikko Securities, noted hopes that the Chinese economy is bottoming out have contributed to recent rallies in global equities.
+"Corporate earnings that have been released so far suggests the worst period for the Chinese economy was over. While that is supportive of share prices, that alone is not enough to keep the rally going for more than a month," he said.
+Overnight, Wall Street shrugged off some earnings misses but drifted lower at the end of the session, after the S&P 500 and the Nasdaq Composite registered record closing highs on Tuesday.
+Microsoft Corp briefly topped $1 trillion in value for the first time after executives predicted continued growth for its cloud computing business, while Facebook Inc blew past Wall Street profit estimates in the first quarter.
+In the currency market, the dollar index, which measures the greenback versus a basket of six major peers, rose to as high as 98.189 on Wednesday, its highest level since May 2017. The index was last quoted at 98.05, down 0.15 percent on the day.
+The euro sat little changed at $1.1157, a day after suffering its biggest one-day loss against the dollar since early March.
+The deteriorating reading on German business morale, in a survey by the IFO economic institute, bucked expectations for a small improvement.
+The British pound held at a two-month low, weighed down by a broad-based rally in the dollar and fading hopes of a breakthrough in Brexit talks between the British government and the opposition. The currency pair last stood at $1.291, slightly higher on the day.
+The Canadian dollar also flirted with four-month lows, trading at C$1.3488 per U.S. dollar, after the Bank of Canada removed wording around the need for future hikes and lowered its growth forecast.
+U.S. Treasury yields fell across maturities on Wednesday as investors piled into the safe-haven asset after a slew of weak international economic data.
+In commodities, oil prices hovered below six-month highs, torn between support from tightening U.S. sanctions against Iran announced this week and pressure from a surge in U.S. supply.
+Brent crude futures ticked up 0.25 percent to $74.75 a barrel, while U.S. West Texas Intermediate crude futures were almost flat at $65.93 a barrel.
+Investors await the next batch of quarterly earnings and U.S. gross domestic product (GDP) data for the January-March quarter, due on Friday, for signs on whether the recent stock rally can continue.
+Economists polled by Reuters expect the U.S. GDP to have grown an annualised 2.1 percent in the first three months of this year, largely keeping the pace from a 2.2 percent expansion in the preceding quarter. (Reporting by Tomo Uetake; Additional reporting by Hideyuki Sano; Editing by Kim Coghill and Richard Borsuk)
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });
