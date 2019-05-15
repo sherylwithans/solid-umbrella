@@ -1,12 +1,12 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 #!pip install webdriver-manager
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+#from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -14,7 +14,7 @@ import datetime
 from file_operations import *
 
 
-# In[30]:
+# In[49]:
 
 
 from file_operations import *
@@ -38,7 +38,7 @@ def get_cnbc(ticker,num_days):
     
     options = webdriver.ChromeOptions()
     options.add_argument('headless')
-    browser = webdriver.Chrome(ChromeDriverManager().install(),options=options)
+    browser = webdriver.Chrome(options=options)
     # browser = webdriver.PhantomJS() #replace with .Firefox(), or with the browser of your choice
     browser.get(url) #navigate to the page
     innerHTML = browser.execute_script("return document.body.innerHTML") #returns the inner HTML as a string
@@ -53,10 +53,11 @@ def get_cnbc(ticker,num_days):
         if link != '{{asset.href}}':
             try:
                 time,headline,content = get_each_news(link)
+                #print('time:',time,'headline:',headline,content)
             except:
                 pass
             if time != '--':
-                if 'Ago' in time:
+                if 'ago' in time.lower():
                     timestring = time
                     pattern =  re.compile(r'\d+')
                     match = re.search(pattern, timestring)
@@ -68,13 +69,15 @@ def get_cnbc(ticker,num_days):
                     timestring = time
                     pattern =  re.compile(r'[0-9]* [a-zA-Z ]+ [0-9]{4}$')
                     match = re.search(pattern, timestring)
-                    #print(match)
-                    d = datetime.datetime.strptime(match.group(),'%d %B %Y').date()
-                    pattern_time = re.compile(r'[0-9]+:[0-9 ]+[A-Z]{2}')
-                    match_time = re.search(pattern_time,timestring)
-                    #print(datetime.datetime.strptime(match_time.group(),'%I:%M  %p').time())
-                    t= datetime.datetime.strptime(match_time.group(),'%I:%M  %p').time()
-                    datetime_ = datetime.datetime.combine(d,t)
+                    if match != None:
+                        d = datetime.datetime.strptime(match.group(),'%d %B %Y').date()
+                        pattern_time = re.compile(r'[0-9]+:[0-9 ]+[A-Z]{2}')
+                        match_time = re.search(pattern_time,timestring)
+                        #print(datetime.datetime.strptime(match_time.group(),'%I:%M  %p').time())
+                        t= datetime.datetime.strptime(match_time.group(),'%I:%M  %p').time()
+                        datetime_ = datetime.datetime.combine(d,t)
+                    else:
+                        pass
             else:
                 datetime_ = time
             #print(type(datetime_),link,datetime_)
@@ -86,7 +89,7 @@ def get_cnbc(ticker,num_days):
                 pass
 
 
-# In[23]:
+# In[50]:
 
 
 def get_each_news(headline_link):
@@ -96,18 +99,19 @@ def get_each_news(headline_link):
     soup = BeautifulSoup(page.content,'lxml')
     
     try:
-        headline = soup.find('h1',class_='title').get_text()
+        headline = soup.find('h1',class_='ArticleHeader-headline').get_text()
     except:
         headline = '--'
     
     try:
-        content = soup.find('article').get_text()
+        content = soup.find('div',class_='ArticleBody-articleBody').get_text()
         content = content.strip()
     except:
         content = '--'
     
     try:
-        time = soup.find('time',class_='datestamp').get_text()
+        #time = soup.find('time',class_='datestamp').get_text()
+        time = soup.find('time').get_text()
         time = time.strip()
     except:
         time = '--'
