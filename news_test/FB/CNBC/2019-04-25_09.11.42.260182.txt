@@ -1,0 +1,50 @@
+show chapters
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+				    	                 
+            News Update C Pre-Markets020202
+			                        12 Hours Ago |  01:06 
+
+
+
+
+
+Check out the companies making headlines before the bell:
+
+3M  3M earned an adjusted $2.23 for the first quarter, missing the consensus estimate of $2.49 a share. Revenue also fell short of forecasts and 3M cut its full-year forecast. The manufacturing giant also announced it will cut about 2,000 jobs.
+Comcast  The NBCUniversal and CNBC parent beat estimates by 8 cents a share, with adjusted quarterly profit of 76 cents per share. Revenue was short of consensus. Comcast's total customer relationships rose by 3.5%, with cable communications revenue up 4.2% and high-speed internet revenue up 10.1%.
+
+Southwest Airlines  Southwest's profit fell 16% from a year ago, due largely to the grounding of its Boeing 737 Max jets. The airline's bottom line came in 9 cents a share above estimates, at an adjusted 70 cents per share. Revenue also topped estimates.
+UPS  UPS came in 2 cents a share short of estimates, with adjusted quarterly profit of $1.39 per share. The delivery company's revenue also missed forecasts. UPS said bad weather had a significant impact on its performance during the quarter.
+Waste Management  Waste Management reported adjusted quarterly earnings of 94 cents per share, 2 cents a share above estimates. Revenue beat estimates, as well. The company also said that efforts to improve its recycling business are showing positive results.
+DR Horton  The home builder earned 93 cents per share for its fiscal second quarter, 7 cents a share above estimates. Revenue also beat forecasts, however the company gave a softer-than-expected full-year forecast, partly due to rising costs.
+Facebook  Facebook reported adjusted quarterly profit of $1.89 per share, compared to the $1.63 a share consensus estimate. Revenue also beat forecasts. Facebook's top and bottom lines, as well as user numbers, hit record highs during the quarter. The company also said it expects to pay at least $3 billion and possibly up to $5 billion in a privacy-related fine to the Federal Trade Commission.
+Microsoft  Microsoft beat estimates by 14 cents a share, with quarterly profit of $1.14 per share. Revenue also beat forecasts on a surge on cloud revenue and software subscriptions.
+Chipotle Mexican Grill  Chipotle reported adjusted quarterly earnings of $3.40 per share, beating consensus forecasts by 39 cents a share. The restaurant chain saw comparable store sales rise by a better than expected 9.9%, and its digital revenue more than doubled while accounting for 15.7% of sales.
+Walmart  British regulators have blocked the proposed $9.4 billion takeover of Walmart's Asda supermarket operator by rival Sainsbury, saying it would lessen competition.
+Visa  Visa came in 7 cents a share ahead of estimates, with quarterly profit of $1.31 per share. The payment network also reported a slight revenue beat as an increase in consumer spending boosted its results. Visa also raised its full-year forecast. On the negative side, Visa did see a slide in the value of transactions made outside a customer's home country.
+PayPal  PayPal reported adjusted quarterly profit of 78 cents per share, 10 cents a share above estimates. Revenue matched Street forecasts. PayPal also reported that more than 40 million people made transactions using its Venmo service over the past 12 months, making it one of the most popular financial apps in the country.
+Tesla  Tesla lost an adjusted $2.90 per share for the first quarter, wider than the 69 cents a share  loss that Wall Street was expecting. The automaker's revenue was below forecasts as well. Tesla said it expects to return to profit in the third quarter of 2019, on cost cuts and improvements in delivery.
+Shutterfly  Shutterfly may be a takeover candidate, with Bloomberg reporting that private-equity firms Apollo Global and Cerberus are considering a bid for the online photo sharing company.
+Nokia  Nokia posted a surprise quarterly loss, related to a delay for the Finnish telecom equipment maker in booking 5G-related revenue.
+Deutsche Bank  Deutsche Bank and German banking rival Commerzbank have ended their merger talks, saying the combination would not have created sufficient benefits.
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

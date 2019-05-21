@@ -2,7 +2,7 @@
 
 The News Analytics App is an interactive platform that will help asset managers gain a high level overview of financial news information.
 
-An automated assistant will allow the asset manager to keep up with the rapid pace of information and news readily available online, so that the manager can focus on his clients. This app will allow asset managers to efficiently and effectively understand the breadth of relevant news articles regarding their client‚Äôs portfolios.
+An automated assistant will allow the asset manager to keep up with the rapid pace of information and news readily available online, so that the manager can focus on his clients. This app will allow asset managers to efficiently and effectively understand the breadth of relevant news articles regarding their client°Øs portfolios.
 
 The application allows users to:
 - View three sentence summaries of financial news articles 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 2. Add chromedriver file location to path (to enable web scraping using selenium)
 
-3. Ensure the portfolio data is in a csv file named ‚Äúportfolio.csv‚Äù under the directory ‚ÄúNews Analytics App/news_analytics/portfolio‚Äù, with the format below:
+3. Ensure the portfolio data is in a csv file named °∞portfolio.csv°± under the directory °∞News Analytics App/news_analytics/portfolio°±, with the format below:
 - A header row
 - First column: Asset name; Second column: Ticker Symbol
 

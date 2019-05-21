@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">{{legend}}</legend>
+                <div class="form-group">
+                    {{ form.num_days.label(class="form-control-label") }}
+                    {% if form.num_days.errors %}
+                        {{ form.num_days(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.num_days.errors %}
+                                <span>{{error}}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.num_days(class="form-control form-control-lg") }}
+                    {% endif %}
+                    {{ form.num_topics.label(class="form-control-label") }}
+                    {% if form.num_topics.errors %}
+                        {{ form.num_topics(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.num_topics.errors %}
+                                <span>{{error}}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.num_topics(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="small text-muted">*The model generation process may take a few minutes depending on the amount of data selected and the device used. Please wait a moment.</div>
+
+            </fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info")}}
+            </div>
+        </form> 
+    </div>
+{% endblock content %}

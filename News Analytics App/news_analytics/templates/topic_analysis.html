@@ -1,0 +1,143 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<style>
+.hideextra { white-space: nowrap; overflow: hidden; text-overflow:ellipsis; }
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 150%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 150%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+#myTable2 {
+  border-collapse: collapse;
+  width: 150%;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+
+#myTable2 th, #myTable2 td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable2 tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable2 tr.header, #myTable2 tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+    
+    <h1>Topic Analysis</h1>
+    <div>
+      <table id = "myTable2">
+        <tr class = "header">
+          <th style="width:15%;">Topic Id</th>
+          <th style="width:85%;" width=1000>Summary</th>
+        </tr>
+
+      <tbody>
+        {% for topic_summary in topic_summaries %}
+           <tr>
+            <td>{{topic_summary[0]}}</td>
+            <td>{{topic_summary[1]}}</td>
+           </tr>
+        {% endfor %}
+       </tbody>
+      </table>
+    </div>
+    <iframe src="{{ url_for('show_lda',cache=cache)}}" width = 1100 height = 1000 style="border:none;"></iframe>
+
+    <div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by topic id or word tag..">
+    <!-- <input type="text" id="myInput"  placeholder="Search by topic id"> -->
+    <table id = "myTable">
+      <tr class = "header">
+        <th style="width:5%;">Topic Id</th>
+        <th style="width:5%;">News Source</th>
+        <th style="width:5%;">Date Posted</th>
+        <th style="width:70%;">Headline</th>
+        <th style="width:5%;">Positive</th>
+        <th style="width:5%;">Negative</th>
+        <th style="width:0%;"></th>
+        
+      </tr>
+
+    <tbody>
+      {% for post in posts %}
+         <tr>
+          <td>{{post.topic_id}}</td>
+          <td>{{post.news_source}}</td>
+          <td>{{post.date_posted}}</td>
+          <td><a class="article-title" href="{{ post.href }}">{{ post.title }}</a></td>
+          <td>{{post.pos[:5]}}</td>
+          <td>{{post.neg[:5]}}</td>
+          <td> <div class="hideextra" style="width:0px">{{post.nouns}}</div></td>
+          
+         </tr>
+      {% endfor %}
+     </tbody>
+    </table>
+    </div>
+
+<script>
+function myFunction() {
+  // Declare variables 
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td1 = tr[i].getElementsByTagName("td")[0];
+    td2 = tr[i].getElementsByTagName("td")[6];
+    if (td1 || td2) {
+      txtValue1 = td1.textContent || td1.innerText;
+      txtValue2 = td2.textContent || td2.innerText;
+      if ((txtValue1.toUpperCase()===filter) || 
+        (txtValue2.toUpperCase().indexOf(filter) > -1)) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
+{% endblock content %}
+

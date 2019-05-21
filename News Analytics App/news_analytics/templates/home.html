@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for post in posts.items %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post.news_source }}</a>
+              <small class="text-muted">{{ post.date_posted}}</small>
+              <div>
+                <a class="text-muted" href="#">Sentiment score:</a>
+                <a class="btn btn-primary btn-sm mt-1 mb-1" href="#">Positive: {{post.pos[:5]}}</a>
+                <button type="button" class="btn btn-danger btn-sm m-1" data-toggle="modal" data-target="#deleteModal">Negative: {{post.neg[:5]}}</button>
+              </div>
+            </div>
+            <h2><a class="article-title" href="{{ post.href }}">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.summary }}</p>
+          </div>
+        </article>
+    {% endfor %}
+    {% for page_num in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+      {% if page_num %}
+        {% if posts.page == page_num %}
+          <a class="btn btn-info mb-4" href="{{ url_for('home',page=page_num) }}">{{page_num}}</a>
+        {% else %}
+          <a class="btn btn-outline-info mb-4" href="{{ url_for('home',page=page_num) }}">{{page_num}}</a>
+        {% endif %}
+      {% else %}
+        ...
+      {% endif %}
+    {% endfor %}
+
+{% endblock content %}

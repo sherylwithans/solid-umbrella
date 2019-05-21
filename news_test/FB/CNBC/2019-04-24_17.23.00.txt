@@ -1,0 +1,45 @@
+show chapters
+
+
+
+
+
+ 
+
+
+
+   
+
+
+
+				    	                 
+            Facebook beat on top and bottomHere's what six experts are watching now020202
+			                        3 Hours Ago |  04:57 
+
+
+
+
+
+Check out the companies making headlines after the bell:
+
+Shares of Facebook popped more than 7% in extended trading Wednesday following the release of the social media giant's first-quarter earnings. Facebook reported earnings per share of 85 cents, which was not comparable to analysts' estimates due to a $3 billion legal expense related to a Federal Trade Commission inquiry into Facebook's privacy policies.
+Revenue came in at $15.08 billion, topping Wall Street's $14.98 billion forecast, according to Refinitiv. Daily active users increased 8% year over year to total 1.56 billion. Average revenue per user was $6.42, beating estimates of $6.39.
+
+Microsoft shares jumped more than 3% after hours Wednesday after the company posted better-than-expected third-quarter earnings. The second largest company by market valuation, behind Apple, earned $30.57 billion in revenue during the period. That tops estimates of $29.84 billion, according to analysts surveyed by Refinitiv. Earnings per share were $1.14, higher than the $1.00 expected by analysts.
+Shares of Tesla seesawed after market close Wednesday based on disappointing first-quarter earnings. Elon Musk's automaker reported a loss of $2.90 on revenue of $4.54 billion. Analysts expected a loss of 69 cents on revenue of $5.19 billion per Refinitiv.
+Chipotle shares were volatile in extended trading Wednesday following the release of the restaurant company's first-quarter earnings. Chipotle posted revenue of $1.31 billion, beating estimates of $1.26 billion. Earnings per share were $3.40, compared to the $3.01 forecast on the Street.
+Chipotle's same store sales grew 9.9%, topping estimates of 7.3%.
+PayPal shares dropped as much as 2% after hours Wednesday after releasing the online payments company's first-quarter earnings. The Venmo parent company earned $4.13 billion in revenue, in line with estimates. Earnings per share came in at 78 cents, beating expectations by 10 cents, according to analysts surveyed by Refinitiv. PayPal's total payment volume was $161 billion, while Venmo's was $21 billion.
+The company revealed that Venmo's payment platform has 40 million users, the first time it has shared this metric.
+Shares of Visa dipped 1% after market close Wednesday despite posting better-than-expected earnings. For the first quarter Visa earned $5.49 billion in revenue, slightly higher the expected $5.47 billion. Earnings per share were $1.31, higher than analysts' estimates of $1.24. Visa's stock is up more than 22% year to date.
+Shares of Xilinx plummeted more than 11% in extended trading Wednesday despite better-than-expected fourth-quarter earnings. The semiconductor company reported earnings in line with estimates at 94 cents per share. Revenue was $828 million, lower than the expected $825 million, according to Refinitiv. Xilinx's stock is up about 64% year to date.
+Xilinx also announced they are acquiring networking technology company Solarflare.
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });

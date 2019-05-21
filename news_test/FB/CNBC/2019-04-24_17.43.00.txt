@@ -1,0 +1,27 @@
+penalty@ (Adds quotes, background on FTC probe)
+April 24 (Reuters) - Facebook Inc on Wednesday blew away Wall Street profit estimates in the first quarter as it kept a lid on the costs of making its social networks safer, and set aside $3 billion to cover a settlement with U.S. regulators, calming investors who had worried about the outcome of a months-long federal probe.
+Shares of the world's biggest online social network jumped more than 10 percent after hours.
+
+The U.S. Federal Trade Commission has been investigating revelations that Facebook inappropriately shared information belonging to 87 million of its users with the now-defunct British political consulting firm Cambridge Analytica.
+The probe has focused on whether the sharing of data and other disputes violated a 2011 agreement with the FTC to safeguard user privacy. Facebook set aside $3 billion to cover anticipated costs associated with the settlement, but said the charges could reach as high as $5 billion.
+If the settlement is in that range, it would be the largest civil penalty paid to the agency, said David Vladeck, a former FTC official now at Georgetown Law School.
+"Everyone expected there would be a substantial civil penalty in this case," said Vladeck. "There's no question that Facebook is going to have to settle this matter. Investors want this behind them."
+The accrual cut the company's net income in the first quarter to $2.43 billion, or $0.85 per share.
+Excluding the $3 billion it set aside, Facebook would have earned $1.89 a share, up from $1.69 the year prior and easily beating analysts' average estimate of $1.63 per share, according to IBES data from Refinitiv.
+Total first-quarter revenue rose 26 percent to $14.9 billion from $12.0 billion last year, compared to analysts' average estimate of $15.0 billion.
+Shares of Facebook rose 10 percent to $200.50 in after-hours trade, demonstrating the company's resilience despite a series of scandals over improperly shared user data and propaganda that made it the target of political scrutiny across the globe.
+The company's shares lost a third of their value last year, after executives first warned about costs associated with its drive to improve safety and slowing growth in revenue and operating margin.
+Total expenses in the first quarter were $11.8 billion, up 80 percent compared with a year ago. The operating margin fell to 22 percent from 46 percent a year ago, but would have been 42 percent without the one-time expense.
+"This is a strong report suggesting that advertisers still see value in Facebook's platform, as they did before the controversies and scandals erupted," said Haris Anwar, senior analyst at financial markets platform Investing.com.
+Executives have forecast that expenses will grow 40 to 50 percent in 2019, but say they expect the downward trend to taper off after this year as revenue from new ways of pushing ads and facilitating transactions offset the security spending.
+Monthly and daily users of the main Facebook app compared to last quarter were both up 8 percent to 2.38 billion and 1.56 billion, respectively.
+Estimates were for 2.4 billion monthly users and 1.6 billion daily users, according to Refinitiv averages. (Reporting by Akanksha Rana in Bengaluru and Katie Paul in San Francisco; additional reporting by Diane Bartz in Washington; editing by Patrick Graham and Bill Rigby)
+
+
+
+
+
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.mpsinit=mps._queue.mpsinit||[]; 
+    mps._queue.mpsinit.push(function() { 
+      mps.insertComponent('#taboola_article_you_may_like', 'taboola-article-you-may-like') 
+    });
